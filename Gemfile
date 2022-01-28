@@ -19,6 +19,7 @@ group :development, :test do
   gem 'vcr'
   gem 'devise'
   gem 'rspec-json_expectations'
+  gem 'rails-i18n'
 end
 
 group :test do
