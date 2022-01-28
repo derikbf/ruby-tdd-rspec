@@ -13,9 +13,8 @@ class CustomersController < ApplicationController
       redirect_to customer_path, notice: 'Cliente cadastrado com sucesso!'
     else
       render :new
+    end
   end
-
-  # private
 
   def customer_params
     params.require(:customer).permit(:id, :name, :email, :smoker, :phone, :avatar)
