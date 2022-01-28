@@ -18,7 +18,7 @@ group :development, :test do
   gem 'webmock'
   gem 'vcr'
   gem 'devise'
-  gem 'rspec-json_expectations' 
+  gem 'rspec-json_expectations'
 end
 
 group :test do
